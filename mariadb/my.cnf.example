@@ -8,9 +8,3 @@
 [mysqld]
 innodb_log_file_size = 4048M
 innodb_strict_mode = 0
-
-[mariadb]
-character-set-server = utf8mb4
-
-[client-mariadb]
-default-character-set = utf8mb4
