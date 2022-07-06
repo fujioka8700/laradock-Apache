@@ -292,6 +292,7 @@ services:
         - docker-in-docker:/certs/client
       ports:
         - "${PHP_FPM_XDEBUG_PORT}:9003"
+        - "9912:9912"
       expose:
         - "9000"
       extra_hosts:
